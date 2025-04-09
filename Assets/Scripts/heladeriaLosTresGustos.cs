@@ -37,6 +37,7 @@ public class heladeriaLosTresGustos : MonoBehaviour
 
         // 3. Processamiento de datos
         precioTotal = gramosHelado * (precioPorMilGramos / 1000) * (1 - porcentajeDescuento / 100);
+        Debug.Log("El costo de tu pedido es de $" + precioTotal);
     }
 
     // Update is called once per frame
